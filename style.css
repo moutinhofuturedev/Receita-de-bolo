@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(252, 255, 214);
+    ;
+}
+
+header {
+    background: #cf2b2b;
+    margin: -18px 0;
+    padding: 15px 0;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 40px;
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+
+.main_color {
+    background: rgb(252, 255, 214);
+    display: flex;
+    /* aqui o display flex juntou a divisão entre o header e a seção da origem do bolo*/
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 190%;
+    color: #000;
+}
+
+.img1 {
+    width: 25%;
+}
+
+.origem {
+    display: flex;
+    background: white;
+    margin: 0 100px;
+}
+
+.origem-texto {
+    padding: 20px 20px;
+}
+
+h2,
+p {
+    color: black;
+}
+
+.divisao {
+    padding: 8px 0;
+    background: rgb(252, 255, 214);
+
+}
+
+.citacao {
+    display: flex;
+    color: #fff;
+    background-color: rgb(128, 0, 0);
+    margin: 0 100px;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+.para-h2 {
+    background: rgb(252, 255, 214);
+    margin: 0 0;
+    padding: 10px 103px;
+}
+
+.receita {
+    /*classe da tag section */
+    display: flex;
+    background: rgb(252, 255, 214);
+    color: #000;
+}
+
+.img2 {
+    width: 30%;
+    margin: 0 100px;
+}
+
+.estilo-p {
+    color: #000;
+}
+
+.ingredientes {
+    display: block;
+    margin: 0 -125px;
+}
+
+.preparo {
+    margin: 0 -110px;
+}
+
+.bolos-relacionados {
+    width: 19%;
+    background: #fff;
+    margin: -35px 103px;
+    padding: 0 9px;
+}
+
+.posicao-h2 {
+    text-align: center;
+}
+
+.lista-bloco {
+    display: block;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.lista-bloco>li {
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.formulario {
+    background: rgb(252, 255, 214);
+    display: block;
+    /*aqui o display flex juntou a divisão entre a seção de ingredientes e o formulário */
+    justify-content: center;
+    /* depois usei o justify-content para centralizar o h1 dentro do display flex*/
+    padding: 25px 0;
+    color: #000;
+}
+
+.input-padrao {
+    display: block;
+    margin: 10px 100px;
+    padding: 10px 35px;
+
+}
+
+#mensagem {
+    display: block;
+    margin: 10px 100px;
+}
+
+label {
+    margin: 0 100px;
+    font-weight: bold;
+}
+
+.botao {
+    margin: 10px 100px;
+    width: 20%;
+    padding: 6px 0;
+    background: orange;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #cf2b2b;
+    transition: 1.2s;
+    color: #fff;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+}
+
+.p-color {
+    color: #fff;
+    padding: 10px 0;
+}
+
+img {
+    width: 40px;
+    margin: 14px 0;
+}
